@@ -1,0 +1,86 @@
+body{
+	background-color:light-blue;
+	margin:0px;
+	font-family: Verdana, Georgia, serif;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:100%;
+}
+
+#header{
+	background-color:#363237 ;
+	margin:2px;
+	height:90px;
+	border-radius:5px;
+}
+
+#navbar ul{
+	padding:5px;
+	list-style-type:none;
+	text-align:center;
+	background:#363237;
+	margin:2px 2px 0px 2px;
+	border-radius: 5px;
+}
+
+#navbar ul li{
+	display:inline;
+}
+
+#navbar ul li a{
+	text-decoration:none;
+	padding: .2em 1em;
+	color:#fff;
+	background-color:#363237;
+	font-family:Arial;
+}
+
+#navbar ul li a:hover{
+	color:#000;
+	background-color:#fff;
+}
+
+#content{
+	min-height:100%;
+	background:#D09683;
+	margin:0px;
+	border-radius:5px;
+	margin-top:-14px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+footer{
+	clear:both;
+	background:#363237;
+	margin: 2px;
+	border-radius: 5px;
+	padding: 15px;
+	color:#efe5d0;
+	text-align:center;
+	font-size:70%;
+	margin-top: 24.5px;
+	
+	position:relative;
+
+	top:50%;
+	-webkit-transform:TranslateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/*=============== HEADINGS ================== */
+
+h1{
+	font-size:250%;
+	text-align:center;
+	color:#e5e4d7;
+	font-family:"Century Gothic";
+	margin:0;
+	
+	position:relative;
+	top:50%;
+	-webkit-transform:TranslateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform: translateY(-50%);
+}
