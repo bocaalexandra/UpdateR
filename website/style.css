@@ -1,0 +1,140 @@
+body{
+	background-color:light-blue;
+	margin:0px;
+	font-family: Verdana, Georgia, serif;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:100%;
+}
+
+#header{
+	background-color:#363237 ;
+	margin:2px;
+	height:90px;
+	border-radius:5px;
+}
+
+#navbar ul{
+	padding:5px;
+	list-style-type:none;
+	text-align:center;
+	background:#363237;
+	margin:2px 2px 0px 2px;
+	border-radius: 5px;
+}
+
+#navbar ul li{
+	display:inline;
+}
+
+#navbar ul li a{
+	text-decoration:none;
+	padding: .2em 1em;
+	color:#fff;
+	background-color:#363237;
+	font-family:Arial;
+}
+
+#navbar ul li a:hover{
+	color:#000;
+	background-color:#fff;
+}
+
+#content{
+	min-height:100%;
+	background:#D09683;
+	margin:0px;
+	border-radius:5px;
+	margin-top:-14px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+footer{
+	
+	background:#363237;
+	margin: 2px;
+	border-radius: 5px;
+	padding: 15px;
+	color:#efe5d0;
+	text-align:center;
+	font-size:70%;
+	margin-top: -13px;
+}
+
+/* Settings for about popup */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 0.9;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 30px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Arial, Tahoma, sans-serif;
+  text-align:center;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+.popup .close:hover {
+  color: #D09683;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 700px){
+  .popup{
+    width: 70%;
+  }
+}
+/*==============DOWNLOAD PAGE================ */
+
+
+
+/*=============== HEADINGS ================== */
+
+h1{
+	font-size:250%;
+	text-align:center;
+	color:#e5e4d7;
+	font-family:"Century Gothic";
+	margin:0;
+	
+	position:relative;
+	top:50%;
+	-webkit-transform:TranslateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform: translateY(-50%);
+}
