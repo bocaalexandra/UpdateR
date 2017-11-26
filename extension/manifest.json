@@ -1,0 +1,11 @@
+{
+	"name": "UpdateR",
+	"manifest_version":2,
+	"version": "1.0",
+	"description": "Nu am o descriere inca",
+	"browser_action": {
+		"default_icon": "./images/icon2.png",
+		"default_popup": "mypopoup.html"
+
+	}
+}
