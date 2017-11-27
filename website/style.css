@@ -4,7 +4,7 @@ body{
 	font-family: Verdana, Georgia, serif;
 	margin-bottom:0px;
 	margin-top:0px;
-	height:100%;
+	height:80%;
 }
 
 #header{
@@ -47,7 +47,7 @@ body{
 	margin-top:-38px;
 	margin-left:2px;
 	margin-right:2px;
-	padding-bottom: 1000px
+	padding-bottom: 48%;
 }
 
 #content img{
@@ -63,8 +63,34 @@ body{
 	font-size:250%;
 	text-align:center;
 	color:#e5e4d7;
-	font-family:"Century Gothic";
+	font-family:"Raleway";
 	font-weight: bold;
+	padding-top:2%;
+}
+
+#text{
+	font-family:"Raleway";
+	font-weight: bold;
+	margin-left:-10%;
+	margin-top:0px;
+	font-size:120%;
+}
+
+#list{
+	font-family:"Raleway";
+	font-weight: bold;
+	margin-left:-10%;
+	margin-top:0px;
+	font-size:120%;
+}
+
+#desc{
+	font-family:"Raleway";
+	font-weight: bold;
+	margin-left:5%;
+	margin-top:50px;
+	font-size:120%;
+	color:#e5e4d7;
 }
 
 #content #textblock{
