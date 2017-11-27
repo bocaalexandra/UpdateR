@@ -44,10 +44,10 @@ body{
 	min-height:100%;
 	background:#D09683;
 	border-radius:5px;
-	margin-top: -13px;
+	margin-top: -27px;
 	margin-left:2px;
 	margin-right:2px;
-	padding-bottom:782px
+	padding-bottom: 500px
 }
 
 #content #title{
@@ -57,6 +57,112 @@ body{
 	padding-top: 80px;
 	padding-left: 50px;
 }
+
+#content #tut1{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#content #tut1 #one{
+	color:#e5e4d7;
+	font-weight: bold;
+	margin-top: 200px;
+}
+
+#content #tut1 #img img{
+	float: right;
+	margin-top: -100px;
+	margin-left: 100px;	
+	width: 1000px;
+	height: 500px;
+}
+
+#content #tut2{
+	margin-top: 180px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#content #tut2 #two{
+	color:#e5e4d7;
+	font-weight: bold;
+	margin-top: 600px;
+}
+
+#content #tut2 #img img{
+	float: right;
+	margin-top: -100px;
+	margin-left: 100px;	
+	width: 1000px;
+	height: 500px;
+	border-radius: 5px;
+}
+
+
+#content #tut3{
+	margin-top: 180px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#content #tut3 #three{
+	color:#e5e4d7;
+	font-weight: bold;
+	margin-top: 600px;
+}
+
+#content #tut3 #img img{
+	float: right;
+	margin-top: -100px;
+	margin-left: 100px;	
+	width: 1000px;
+	height: 500px;
+	border-radius: 5px;
+}
+
+#content #tut4{
+	margin-top: 180px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#content #tut4 #four{
+	color:#e5e4d7;
+	font-weight: bold;
+	margin-top: 550px;
+}
+
+#content #tut4 #img img{
+	float: right;
+	margin-top: -90px;
+	margin-left: 100px;	
+	width: 1000px;
+	height: 200px;
+	border-radius: 5px;
+}
+
+#content #tut5{
+	margin-top: 180px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#content #tut5 #five{
+	color:#e5e4d7;
+	font-weight: bold;
+	margin-top: 280px;
+}
+
+#content #tut5 #img img{
+	float: right;
+	margin-top: -100px;
+	margin-left: 100px;	
+	width: 1000px;
+	height: 500px;
+	border-radius: 5px;
+}
+
+
 
 footer{
 	

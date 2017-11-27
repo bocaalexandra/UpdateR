@@ -176,7 +176,7 @@ footer{
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1385px){
   .popup{
     width: 70%;
   }
