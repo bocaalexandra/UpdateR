@@ -115,10 +115,22 @@ footer{
   overflow: auto;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1458px){
   .popup{
     width: 70%;
   }
+
+  #content #dd {
+		font-size:5%;
+		margin:2px;
+		padding-top:1%;
+
+	}
+	#content #ddd{
+		font-size:5%;
+		margin:2px;
+		padding-top:20.8%;
+	}
 }
 /*==============DOWNLOAD PAGE================ */
 
