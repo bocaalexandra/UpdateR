@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Management Page</title>
+	<link rel="stylesheet" href="../css/manage-style.css" type="text/css">
+	<script src="../jscript/manage.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div id="top">
+			<img src="../images/icon2.png" alt="logo" id="logo-image">
+			<input type="text" name="search" placeholder="Search.." id="search">
+			<button id="button1">Delete</button>
+			<button id="button2">Export</button>
+			<input type="file" id="csvFileInput" onchange="handleFiles(this.files)"
+		accept=".csv">
+		</div>
+		
+		<div id="left">
+		
+		</div>
+		
+		<div id="right">
+				
+		</div>
+		
+	</div>
+	<script type="text/javascript">
+		/*function handleFiles(files) {
+	    // Check for the various File API support.
+	    if (window.FileReader) {
+	      // FileReader are supported.
+	        getAsText(files[0]);
+	    } else {
+	        alert('FileReader are not supported in this browser.');
+	    }
+	}
+
+	function getAsText(fileToRead) {
+	    var reader = new FileReader();
+	    // Read file into memory as UTF-8      
+	    reader.readAsText(fileToRead);
+	    // Handle errors load
+	    reader.onload = loadHandler;
+	    reader.onerror = errorHandler;
+	}
+
+	function loadHandler(event) {
+	  var csv = event.target.result;
+	  processData(csv);
+	}
+
+	function processData(csv) {
+	    var allTextLines = csv.split(/\r\n|\n/);
+	    var lines = [];
+	    for (var i=0; i<allTextLines.length; i++) {
+	        var data = allTextLines[i].split(';');
+	        var tarr = [];
+	        for (var j=0; j<data.length; j++) {
+	            tarr.push(data[j]);
+	        }
+	        lines.push(tarr);
+	    }
+	      put_toDB(lines);
+	}
+
+	function errorHandler(evt) {
+	  if(evt.target.error.name == "NotReadableError") {
+	      alert("Canno't read file !");
+	  }
+	}
+
+	function  put_toDB(line)
+	{
+		for(var i=0;i<line.length;i++)
+		{
+			window.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
+			let request = window.indexedDB.open('UpdateR2',1),db,tx,store,index;
+			request.onupgradeneeded = function(e){
+				let db = request.result,store = db.createObjectStore('sites', {keyPath: 'url'}) 
+			};
+			request.onerror = function(e){
+				window.alert('Error'+e.target.errorCode);
+			};
+			request.onsuccess = function(e){
+				db=request.result;
+				tx = db.transaction('sites','readwrite');
+				store = tx.objectStore('sites');
+				db.onerror = function(e){
+					window.alert('Error'+e.target.errorCode);
+				};
+				var ur = line[i].substr(0,line[i].indexOf(','));
+    			var hr = line[i].substr(line[i].indexOf(',')+1);
+				store.put({url:ur, htmlCode:hr});
+				tx.oncomplete = function(){
+					db.close(); 
+				};
+			};
+		}
+		
+	}*/
+	</script>
+</body>
+</html>
